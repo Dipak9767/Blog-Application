@@ -2,11 +2,13 @@ import { demo } from "../demoData";
 
 
 // initializing state with some sample data if localStorage is empty
-localStorage.setItem('allBlogs',JSON.stringify(demo))
-const blogState = JSON.parse(localStorage.getItem('allBlogs')) ? JSON.parse(localStorage.getItem('allBlogs'))
-    : [];
 
-export const BlogReducer = (state = blogState, action) => {
+const demoData = JSON.parse(localStorage.getItem('allBlogs')) ? JSON.parse(localStorage.getItem('allBlogs'))
+    : demo;
+
+localStorage.setItem('allBlogs',JSON.stringify(demoData))
+
+export const BlogReducer = (state = demoData, action) => {
     switch (action.type) {
         case "SETBLOGS": return [  ...action.payload]
           
