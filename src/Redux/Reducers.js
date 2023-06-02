@@ -2,8 +2,9 @@ import { demo } from "../demoData";
 
 
 // initializing state with some sample data if localStorage is empty
+localStorage.setItem('allBlogs',JSON.stringify(demo))
 const blogState = JSON.parse(localStorage.getItem('allBlogs')) ? JSON.parse(localStorage.getItem('allBlogs'))
-    : demo;
+    : [];
 
 export const BlogReducer = (state = blogState, action) => {
     switch (action.type) {
