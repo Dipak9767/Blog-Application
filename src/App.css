@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box !important;
+}
+*::-webkit-scrollbar {
+    display: none;
+  }
+
+.btn:hover{
+    color: black !important;
+}
+
+.sorting-links{
+    padding: 1rem;
+    font-weight: bold;
+    border-bottom: 3px solid #fff;
+  
+}
+.sorting-links:hover{
+    color: #d5d1fb;
+    text-decoration: none;
+    border-bottom: 3px solid #d5d1fb;
+}
+.hoverClass:hover .imgHover{
+    transform: scale(1.1);
+    transition: ease-in-out .7s;
+}
+.hoverClass:hover .arrowHover{
+    margin-left: 10px;
+    transition: ease-in-out .7s;
+}
