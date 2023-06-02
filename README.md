@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# React Blog Application with CRUD Functionality
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a documentation guide for the React Blog Application with CRUD (Create, Read, Update, Delete) functionality. The application allows users to create, read, update, and delete blog posts. It also includes search and sort functionality to help users easily find and organize their blog posts. The application utilizes local storage to store and retrieve blog post data.
 
-## Available Scripts
+### `Tech Stack Used`
 
-In the project directory, you can run:
+- ReactJS
+- ChakraUI
+- Redux
+- UUID
+- Moment
+- React-Router-Dom 
+- FireBase
 
-### `npm start`
+### `Project Overview Blog Application`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The React Blog Application is a web-based platform that allows users to create, read, update, and delete blog posts. It provides an intuitive user interface where users can perform these operations and manage their blog content. The application also includes search and sort functionality to enhance the user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ` Usage of Blog Application`
 
-### `npm test`
+Once the React Blog Application is running, you can use the following features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Create a Blog Post: Click on the "New Post" button to create a new blog post. Fill in the required details, such as the title and content of the post, and click on the "Save" button to add the post to the list.
 
-### `npm run build`
+- Read a Blog Post: The application displays a list of all blog posts on the home page. Click on a post title to view the full content of that post.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Update a Blog Post: To update a blog post, click on the "Edit" button next to the post you want to modify. Make the necessary changes to the post title or content, and click on the "Save" button to update the post.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Delete a Blog Post: To delete a blog post, click on the "Delete" button next to the post you want to remove. Confirm the deletion in the prompt to permanently delete the post.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Search Blog Posts: Utilize the search bar at the top of the page to search for specific title of blog posts. Enter a keyword related to the post's title or content, and the application will filter the list accordingly.
 
-### `npm run eject`
+- Sort Blog Posts:  Use the sort dropdown menu to sort the blog posts based on different categories. Select the desired sorting category, and the application will rearrange the posts accordingly.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ` GitHub Repo of Blog Application`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://github.com/Dipak9767/Blog-Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `Live Deployed link of Blog Application`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://blog-application-assignment.netlify.app/
